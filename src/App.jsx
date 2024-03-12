@@ -1,18 +1,19 @@
-import React from 'react'
-import { useState } from 'react'
+import React from "react";
+import { useState } from "react";
 
-import './App.css'
-import Arithmetic from './components/Arithmetic'
+import "./App.css";
+import Arithmetic from "./components/Arithmetic";
+import Movies from "./components/HuluMovies";
+import Popular from "./components/Popular";
 
 function App() {
-  
-
   return (
     <>
-        <Arithmetic />
-     
+      <Movies />
+      <Popular />
+      <Arithmetic />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
