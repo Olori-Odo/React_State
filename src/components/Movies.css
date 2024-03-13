@@ -1,0 +1,13 @@
+.movie-image {
+  height: 400px;
+  width: 280px;
+  border-radius: 5px;
+  box-sizing: inherit;
+}
+
+.movie-image:hover {
+  border: 2px solid rgba(24, 24, 112, 0.747);
+}
+
+
+

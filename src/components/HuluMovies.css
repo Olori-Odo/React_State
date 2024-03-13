@@ -1,4 +1,9 @@
-.hulu-image {
-  height: 350px;
-  width: 300px;
-}
+
+.m-cart {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    
+  }
+

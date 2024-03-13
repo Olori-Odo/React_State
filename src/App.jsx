@@ -3,20 +3,18 @@ import { useState } from "react";
 
 import "./App.css";
 import Arithmetic from "./components/Arithmetic";
-import Movies from "./components/HuluMovies";
-import Popular from "./components/Popular";
+import HuluWorld from "./components/HuluMovies";
+import HuluPorpular from "./components/HuluPopular";
+
 
 function App() {
   return (
     <>
-      <div>
-        <Movies />
-      </div>
+      <HuluWorld />
+      <br />
+      <HuluPorpular />
 
-      <div>
-        <Popular />
-      </div>
-
+     
       <div>
         <Arithmetic />
       </div>
