@@ -7,7 +7,5 @@
 
 .movie-image:hover {
   border: 2px solid rgba(24, 24, 112, 0.747);
+  margin: 10px;
 }
-
-
-

@@ -1,40 +1,34 @@
-import { useState } from "react"
+import { useState } from "react";
 
+const Arithmetic = () => {
+  const [count, setCount] = useState(0);
 
-const Arithmetic = ()=>{
-    const [count, setCount] = useState(0)
+  // const add = ()=> {
+  //     return setCount(count = 1)
+  // }
 
-    // const add = ()=> {
-    //     return setCount(count = 1)
-    // }
+  // const sub = ()=> {
+  //     return (count > 0) ? setCount(count - 1) : 0
+  // }
+  return (
+    <>
+      <div className="func">
+        <button onClick={() => setCount(count + 1)}>Addition</button>
 
-    // const sub = ()=> {
-    //     return (count > 0) ? setCount(count - 1) : 0
-    // }
-    return(
-        <>
-            <div className="func">
+        <h1> {count} </h1>
 
-            
-                <button onClick={()=> setCount((count + 1))}>Addition</button>
-                <br />
-                <h1> {count} </h1>
-                <br />
-                <button onClick={()=>{
-                    if (count > 0) {
-                        return( setCount((count - 1)))
-                        
-                    }
-                    
-                  
-                
-                    
-                }}>Subtraction</button>
-
-            </div>
-        </>
-
-    )
-}
+        <button
+          onClick={() => {
+            if (count > 0) {
+              return setCount(count - 1);
+            }
+          }}
+        >
+          Subtraction
+        </button>
+      </div>
+    </>
+  );
+};
 
 export default Arithmetic;

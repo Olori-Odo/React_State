@@ -6,7 +6,6 @@ import Arithmetic from "./components/Arithmetic";
 import HuluWorld from "./components/HuluMovies";
 import HuluPorpular from "./components/HuluPopular";
 
-
 function App() {
   return (
     <>
@@ -14,7 +13,9 @@ function App() {
       <br />
       <HuluPorpular />
 
-     
+      <br />
+      <br />
+
       <div>
         <Arithmetic />
       </div>

@@ -1,9 +1,10 @@
-
 .m-cart {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
-    
-  }
-
+.movie-cart:hover {
+  margin: 10px;
+  cursor: pointer;
+}
