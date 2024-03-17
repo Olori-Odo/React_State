@@ -9,6 +9,7 @@ import HuluPorpular from "./components/HuluPopular";
 function App() {
   return (
     <>
+      <h1>Movies</h1>
       <HuluWorld />
       <br />
       <HuluPorpular />
